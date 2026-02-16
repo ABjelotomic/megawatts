@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hello Ninjanja</title>
+  {% load static %}
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
+  <script src="{% static 'core/js/sketch.js' %}"></script>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      background-color: #111;
+    }
+  </style>
+</head>
+<body>
+  <h1 style="color: white; position:absolute; top: 20px; left: 20px; font-family: sans-serif;">
+    Hello, ninja!
+  </h1>
+</body>
+</html>
