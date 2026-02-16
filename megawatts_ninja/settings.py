@@ -25,7 +25,13 @@ SECRET_KEY = 'django-insecure-1ldssl2svqff&hlho5$v^561b+)9tmq3-*figu-65+d0403&sx
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '192.168.8.39',      # Your Pi's local IP
+    'localhost',
+    '127.0.0.1',
+    'megawatts.ninja',   # Your domain
+    'www.megawatts.ninja',  # With www
+]
 
 
 # Application definition
